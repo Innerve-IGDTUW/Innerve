@@ -27,6 +27,34 @@ app.get("/", function(req, res) {
 	res.render("landing.ejs");
 });
 
+app.get("/events", function(req, res) {
+	res.render("events/events.ejs");
+});
+
+app.get("/events", function(req, res) {
+	res.render("events/events.ejs");
+});
+
+app.get("/events/cse-it", function(req, res) {
+	res.render("events/cse-it.ejs");
+});
+
+app.get("/events/ece", function(req, res) {
+	res.render("events/ece.ejs");
+});
+
+app.get("/events/informal", function(req, res) {
+	res.render("events/informal.ejs");
+});
+
+app.get("/events/mae", function(req, res) {
+	res.render("events/mae.ejs");
+});
+
+app.get("/register", function(req, res) {
+	res.render("register.ejs");
+});
+
 app.listen(process.env.PORT || 3000, function() {
 	console.log("Innerve 2020 server has started!");
 });
