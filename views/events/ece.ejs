@@ -1,0 +1,513 @@
+<%- include('../partials/header') %>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="/events/js/modernizr.custom.js"></script>
+<script src="/events/js/modalh.js"></script>
+<link rel="stylesheet" type="text/css" href="/events/ece/css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="/events/ece/css/demo.css" />
+<link rel="stylesheet" type="text/css" href="/events/ece/css/component.css" />
+
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="display-4">ECE Technical Events</h1>
+    </div>
+    <div class="wrapper">
+        <ul class="stage clearfix">
+
+            <li class="scene image">
+                <div class="movie" onclick="return true">
+                    <div class="poster"></div>
+                    <div class="info">
+                        <header>
+                            <h1>Technovate</h1>
+                        </header>
+                        <p>
+                            It is the project presentation event. First Round will include a presentation of their
+                            project.Teams will showcase their project by delivering a presentation...<br><br>
+
+                            <a data-toggle="modal" href="#modal1a" style="color:white;font-size: larger;"><button>Read
+                                    More</button></a>
+
+                        </p>
+                    </div>
+                </div>
+            </li>
+
+            <li class="scene image">
+                <div class="movie" onclick="return true">
+                    <div class="poster"></div>
+                    <div class="info">
+                        <header>
+                            <h1>Electro-Enigma</h1>
+                        </header>
+                        <p>
+                            All the teams will be choosing a random no from the given set of numbers. According to the
+                            chosen number a list of components will be notified...<br><br>
+
+                            <a data-toggle="modal" href="#modal1b" style="color:white;font-size: larger;"><button>Read
+                                    More</button></a>
+
+                        </p>
+                    </div>
+                </div>
+            </li>
+
+            <li class="scene image">
+                <div class="movie" onclick="return true">
+                    <div class="poster"></div>
+                    <div class="info">
+                        <header>
+                            <h1>Digit Cluster</h1>
+                        </header>
+                        <p>
+                            It will consist of an online tech quiz with fixed rounds with each of the selected teams.
+                            Winning team from each round will compete with each other... <br><br>
+
+
+
+                            <a data-toggle="modal" href="#modal1c" style="color:white;font-size: larger;"><button>Read
+                                    More</button></a>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="scene image">
+                <div class="movie" onclick="return true">
+                    <div class="poster"></div>
+                    <div class="info">
+                        <header>
+                            <h1>Virtual Robo Race</h1>
+                        </header>
+                        <p>
+                            It will be a showdown of the robots in the virtual environment selected. All the teams will
+                            simulate their robots in the given environment showcasing different features of the robot...
+                            <br><br>
+
+                            <a data-toggle="modal" href="#modal1" style="color:white;font-size: larger;"><button>Read
+                                    More</button></a>
+
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="scene image">
+                <div class="movie" onclick="return true">
+                    <div class="poster"></div>
+                    <div class="info">
+                        <header>
+                            <h1>CodeArduino</h1>
+                        </header>
+                        <p>
+                            coding rounds on Arduino ide like code debug, predict the output etc.Platform to be used
+                            :Google meet Zoom app Microsoft teams Team participation - individual... <br><br>
+
+                            <a data-toggle="modal" href="#modal2" style="color:white;font-size: larger;"><button>Read
+                                    More</button></a>
+
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="scene image">
+                <div class="movie" class="w3-container" onclick="return true">
+                    <div class="poster"></div>
+                    <div class="info">
+                        <header>
+                            <h1>Circuit Debug</h1>
+                        </header>
+                        <p>
+                            All the teams will be provided with a faulty circuit. The teams will be debugging the
+                            circuit in a fixed time frame. 4-5 rounds will be conducted and in each round all the teams
+                            will be given with... <br><br>
+
+                            <a data-toggle="modal" href="#modal3" style="color:white;font-size: larger;"><button>Read
+                                    More</button></a>
+
+                        </p>
+                    </div>
+                </div>
+            </li>
+
+            <li class="scene image">
+                <div class="movie" onclick="return true">
+                    <div class="poster"></div>
+                    <div class="info">
+                        <header>
+                            <h1>Circuitrix</h1>
+                        </header>
+                        <p>
+                            It is a circuit designing event. All the teams will be provided with a question related to
+                            circuits and they have to design and simulate that circuit .Platform to be used: Pspice.
+                            Circuit online simulator...<br><br>
+
+                            <a data-toggle="modal" href="#modal2a" style="color:white;font-size: larger;"><button>Read
+                                    More</button></a>
+
+                        </p>
+                    </div>
+                </div>
+            </li>
+
+            <li class="scene image">
+                <div class="movie" onclick="return true">
+                    <div class="poster"></div>
+                    <div class="info">
+                        <header>
+                            <h1>IDEATHON</h1>
+                        </header>
+                        <p>
+                            Problem statement will be given to participants , then they will be given a certain time
+                            limit after that they have to give a solution regarding their problem about their
+                            idea....<br><br>
+
+                            <a data-toggle="modal" href="#modal2b" style="color:white;font-size: larger;"><button>Read
+                                    More</button></a>
+
+                        </p>
+                    </div>
+                </div>
+            </li>
+
+            <li class="scene image">
+                <div class="movie" onclick="return true">
+                    <div class="poster"></div>
+                    <div class="info">
+                        <header>
+                            <h1>TECHNOQUEST</h1>
+                        </header>
+                        <p>
+                            it is based on technical quiz (theme based) Jigsaw puzzle. Multiple rounds. Platform used -
+                            Kahoot Dare2Compete...<br><br>
+
+                            <a data-toggle="modal" href="#modal2c" style="color:white;font-size: larger;"><button>Read
+                                    More</button></a>
+
+                        </p>
+                    </div>
+                </div>
+            </li>
+
+
+        </ul>
+    </div><!-- /wrapper -->
+</div><!-- /container -->
+
+
+<div class="modal fade" id="modal1a" role="dialog">
+    <div class="modal-dialog"
+        style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg)">
+
+        <!-- Modal content-->
+        <div class="modal-content"
+            style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg);color: black;">
+            <div class="modal-header"
+                style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg)">
+                <b style="font-size: 35px">Technovate</b>
+                <button type="button" class="close" data-dismiss="modal" style="color: black;">&times;</button>
+                <h4 style="color:white;"> <span class="glyphicon glyphicon-lock" style="color: white;"></span></h4>
+            </div>
+            <div class="modal-body"
+                style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg);font-family: monospace">
+                <p style="font-size: 15px">It is the project presentation event.<br><br>
+                    ◆ First Round will include a presentation of their project.Teams will showcase their project by
+                    delivering a presentation .<br><br>
+                    ◆ Second round will be a video presentation of the working model of the project.<br><br>
+                    ◆ Third Round : Questionnaire with faculty.<br><br>
+                    ◆ Categorize software and hardware projects.<br><br>
+                    ◆ Platform to be used:<br><br>
+                    ● Google Meet<br><br>
+                    ● Zoom app<br><br>
+                    ● Microsoft Teams<br><br>
+                    <a href="#"><button style="font-size: 15px; background-color: black; color: white"
+                            class="btn btn-1">Register</button></a>
+                </p>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal 1b-->
+<div class="modal fade" id="modal1b" role="dialog">
+    <div class="modal-dialog"
+        style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg)">
+
+        <!-- Modal content-->
+        <div class="modal-content"
+            style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg);color: black;">
+            <div class="modal-header"
+                style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg)">
+                <b style="font-size: 35px">Electro-Enigma</b>
+                <button type="button" class="close" data-dismiss="modal" style="color: black;">&times;</button>
+                <h4 style="color:white;"> <span class="glyphicon glyphicon-lock" style="color: white;"></span></h4>
+            </div>
+            <div class="modal-body"
+                style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg);font-family: monospace">
+                <p style="font-size: 15px"> ◆ All the teams will be choosing a random no from the given set of numbers.
+                    According to the chosen number a list of components(sensors and microcontroller) will be notified to
+                    the team.<br><br>
+                    ◆ Round 1: Team will propose an idea to develop a product using the specified components/ Quiz
+                    .<br><br>
+                    ◆ Round 2: Presentation of the final product developed using simulator .<br><br>
+                    ◆ Platform to be used:<br><br>
+                    ● Tinkercad<br><br>
+                    ● Online Simulator<br><br>
+                    ❏ Platform to conduct the whole event:<br><br>
+                    ❏ Google Meet<br><br>
+                    ❏ Zoom app<br><br>
+                    ❏ Microsoft Teams<br><br>
+                    <a href="#"><button style="font-size: 15px; background-color: black; color: white"
+                            class="btn btn-1">Register</button></a>
+                </p>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal1c" role="dialog">
+    <div class="modal-dialog"
+        style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg)">
+
+        <!-- Modal content-->
+        <div class="modal-content"
+            style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg);color: black;">
+            <div class="modal-header"
+                style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg)">
+                <b style="font-size: 35px">Digit Cluster</b>
+                <button type="button" class="close" data-dismiss="modal" style="color: black;">&times;</button>
+                <h4 style="color:white;"> <span class="glyphicon glyphicon-lock" style="color: white;"></span></h4>
+            </div>
+            <div class="modal-body"
+                style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg);font-family: monospace">
+                <p style="font-size: 15px"> ◆ It will consist of an online tech quiz with fixed rounds with each of the
+                    selected teams. Winning team from each round will compete with each other. Team winning the final
+                    round will be the winner of the game.<br><br>
+                    ◆ Platform to be used for quiz:<br><br>
+                    ● Kahoot<br><br>
+                    ● Dare2compete<br><br>
+                    ❏ Platform to conduct the whole event:<br><br>
+                    ❏ Google Meet<br><br>
+                    ❏ Zoom app<br><br>
+                    ❏ Microsoft Teams<br><br>
+                    <a href="#"><button style="font-size: 15px; background-color: black; color: white"
+                            class="btn btn-1">Register</button></a>
+                </p>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal1" role="dialog">
+    <div class="modal-dialog"
+        style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg)">
+
+        <!-- Modal content-->
+        <div class="modal-content"
+            style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg);color: black;">
+            <div class="modal-header"
+                style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg)">
+                <b style="font-size: 35px">Virtual Robo Race</b>
+                <button type="button" class="close" data-dismiss="modal" style="color: black;">&times;</button>
+                <h4 style="color:white;"> <span class="glyphicon glyphicon-lock" style="color: white;"></span></h4>
+            </div>
+            <div class="modal-body"
+                style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg);font-family: monospace">
+                <p style="font-size: 15px"> ◆It will be a showdown of the robots in the virtual environment selected.
+                    All the teams will simulate their robots in the given environment showcasing different features of
+                    the robot. The team whose robot will have maximum features and with efficient simulation will be the
+                    winner.<br><br>
+                    ◆ Platform to be used for simulation:<br><br>
+                    ● Gazebo simulator<br><br>
+                    ● Code snippets.<br><br>
+                    ❏ Platform to conduct the whole event:<br><br>
+                    ❏ Google Meet<br><br>
+                    ❏ Zoom app<br><br>
+                    ❏ Microsoft Teams<br><br>
+                    <a href="#"><button style="font-size: 15px; background-color: black; color: white"
+                            class="btn btn-1">Register</button></a>
+                </p>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal2" role="dialog">
+    <div class="modal-dialog"
+        style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg)">
+
+        <!-- Modal content-->
+        <div class="modal-content"
+            style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg);color: black;">
+            <div class="modal-header"
+                style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg)">
+                <b style="font-size: 35px">Code Arduino</b>
+                <button type="button" class="close" data-dismiss="modal" style="color: black;">&times;</button>
+                <h4 style="color:white;"> <span class="glyphicon glyphicon-lock" style="color: white;"></span></h4>
+            </div>
+            <div class="modal-body"
+                style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg);font-family: monospace">
+                <p style="font-size: 15px"> ◆Coding rounds on Arduino ide like code debug, predict the output
+                    etc.<br><br>
+                    ◆ Platform to be used :<br><br>
+                    ● Google meet<br><br>
+                    ● Zoom app<br><br>
+                    ● Microsoft teams<br><br>
+                    ● Team participation - individual<br><br>
+                    <a href="#"><button style="font-size: 15px; background-color: black; color: white"
+                            class="btn btn-1">Register</button></a>
+                </p>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal3" role="dialog">
+    <div class="modal-dialog"
+        style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg)">
+
+        <!-- Modal content-->
+        <div class="modal-content"
+            style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg);color: black;">
+            <div class="modal-header"
+                style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg)">
+                <b style="font-size: 35px">Circuit Debug</b>
+                <button type="button" class="close" data-dismiss="modal" style="color: black;">&times;</button>
+                <h4 style="color:white;"> <span class="glyphicon glyphicon-lock" style="color: white;"></span></h4>
+            </div>
+            <div class="modal-body"
+                style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg);font-family: monospace">
+                <p style="font-size: 15px"> ◆All the teams will be provided with a faulty circuit. The teams will be
+                    debugging the circuit in a fixed time frame. <br><br>
+                    ◆ 4-5 rounds will be conducted and in each round all the teams will be given with one circuit .As
+                    soon as one team debugs the circuit it will go to the next round.<br><br>
+                    ◆ Team finishing the final round will be the winner.<br><br>
+                    ◆ Platform to be used:<br><br>
+                    ● Google meet<br><br>
+                    ● Zoom app<br><br>
+                    ● Microsoft teams<br><br>
+                    <a href="#"><button style="font-size: 15px; background-color: black; color: white"
+                            class="btn btn-1">Register</button></a>
+                </p>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal2a" role="dialog">
+    <div class="modal-dialog"
+        style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg)">
+
+        <!-- Modal content-->
+        <div class="modal-content"
+            style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg);color: black;">
+            <div class="modal-header"
+                style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg)">
+                <b style="font-size: 35px">Circuitrix</b>
+                <button type="button" class="close" data-dismiss="modal" style="color: black;">&times;</button>
+                <h4 style="color:white;"> <span class="glyphicon glyphicon-lock" style="color: white;"></span></h4>
+            </div>
+            <div class="modal-body"
+                style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg);font-family: monospace">
+                <p style="font-size: 15px"> ◆ It is a circuit designing event. All the teams will be provided with a
+                    question related to circuits and they have to design and simulate that circuit .<br><br>
+                    ◆ Platform to be used:<br><br>
+                    ● Pspice<br><br>
+                    ● Circuit online simulator<br><br>
+                    <a href="#"><button style="font-size: 15px; background-color: black; color: white"
+                            class="btn btn-1">Register</button></a>
+                </p>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal2b" role="dialog">
+    <div class="modal-dialog"
+        style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg)">
+
+        <!-- Modal content-->
+        <div class="modal-content"
+            style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg);color: black;">
+            <div class="modal-header"
+                style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg)">
+                <b style="font-size: 35px">Ideathon</b>
+                <button type="button" class="close" data-dismiss="modal" style="color: black;">&times;</button>
+                <h4 style="color:white;"> <span class="glyphicon glyphicon-lock" style="color: white;"></span></h4>
+            </div>
+            <div class="modal-body"
+                style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg);font-family: monospace">
+                <p style="font-size: 15px"> ◆ Problem statement will be given to participants , then they will be given
+                    a certain time limit after that they have to give a solution regarding their problem about their
+                    idea. <br><br>
+                    ◆ It can be conducted in two rounds : first a quiz to shortlist teams and in second round number of
+                    problem statements will be given out of which they have to select one problem and give a solution to
+                    it<br><br>
+                    ◆ Platform to be used:<br><br>
+                    ● Google meet<br><br>
+                    ● Zoom app<br><br>
+                    ● Microsoft teams<br><br>
+                    <a href="#"><button style="font-size: 15px; background-color: black; color: white"
+                            class="btn btn-1">Register</button></a>
+                </p>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal2c" role="dialog">
+    <div class="modal-dialog"
+        style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg)">
+
+        <!-- Modal content-->
+        <div class="modal-content"
+            style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg);color: black;">
+            <div class="modal-header"
+                style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg)">
+                <b style="font-size: 35px">TechnoQuest</b>
+                <button type="button" class="close" data-dismiss="modal" style="color: black;">&times;</button>
+                <h4 style="color:white;"> <span class="glyphicon glyphicon-lock" style="color: white;"></span></h4>
+            </div>
+            <div class="modal-body"
+                style="background-image: url(https://cdn.pixabay.com/photo/2020/04/20/05/34/background-bokeh-5066447_960_720.jpg);font-family: monospace">
+                <p style="font-size: 15px"> ◆ It is based on technical quiz (theme based)<br><br>
+                    ◆ Jigsaw puzzle.<br><br>
+                    ◆ Multiple rounds.<br><br>
+                    ◆ Platform used -<br><br>
+                    ● Kahoot<br><br>
+                    ● Dare2Compete<br><br>
+                    <a href="#"><button style="font-size: 15px; background-color: black; color: white"
+                            class="btn btn-1">Register</button></a>
+                </p>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<%- include('../partials/footer') %>
