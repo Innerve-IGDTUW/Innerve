@@ -59,6 +59,10 @@ app.get("/gallery", function(req, res) {
 	res.render("gallery.ejs");
 });
 
+app.get("/sponsorship", function(req, res) {
+	res.render("sponsors.ejs");
+});
+
 app.listen(process.env.PORT || 3000, function() {
 	console.log("Innerve 2020 server has started!");
 });
