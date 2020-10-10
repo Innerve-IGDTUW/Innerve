@@ -59,8 +59,12 @@ app.get("/gallery", function(req, res) {
 	res.render("gallery.ejs");
 });
 
-app.get("/sponsorship", function(req, res) {
+app.get("/sponsors", function(req, res) {
 	res.render("sponsors.ejs");
+});
+
+app.get("/schedule", function(req, res) {
+	res.render("schedule.ejs");
 });
 
 app.listen(process.env.PORT || 3000, function() {
