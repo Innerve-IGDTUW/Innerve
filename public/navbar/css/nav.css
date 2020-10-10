@@ -1,0 +1,50 @@
+#mainNavbar {
+  font-size: 1rem;
+  /*font-weight: bold;*/
+  /*background-color: rgba(0, 0, 0, 0.8);*/
+  background-color: black;
+  /*opacity: 0.7;*/
+}
+
+#mainNavbar .nav-link {
+  color: #eed9b7;
+}
+
+#mainNavbar .nav-link:hover {
+  /*color: #888;*/
+  color: #0784b5;
+  /*font-weight: bold;*/
+  text-shadow:
+    -1px -1px 0,
+    1px -1px 0,
+    -1px 1px 0,
+    1px 1px 0;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+#mainNavbar .navbar-brand {
+  color: #ea1c2c;
+  font-size: 1.5rem;
+}
+
+.navbar.scrolled {
+  background: rgb(222, 192, 222);
+  transition: background 500ms; /* can even be 200ms */
+}
+
+.logo img {
+  margin-top: -10%;
+  width: 80px;
+}
+
+.logo img:hover {
+  /*box-shadow: 3px 4px 15px azure;*/
+}
+
+.navbar-collapse {
+  /*background-color: rgba(0, 0, 0, 0.8);*/
+  text-align: left;
+}
