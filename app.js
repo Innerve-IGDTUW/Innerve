@@ -71,7 +71,7 @@ app.get("/social-campaign", function(req, res) {
 	res.render("social-campaign.ejs");
 });
 
-app.get("/meetourteam", function(req, res) {
+app.get("/meet-the-team", function(req, res) {
 	res.render("meetourteam.ejs");
 });
 
