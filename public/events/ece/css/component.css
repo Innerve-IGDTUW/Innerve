@@ -5,13 +5,10 @@
 body {
   background-color: #2b2b2b;
   background-size: cover;
-	font-family: 'Lato', Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
 	color: #fff;
-  position: absolute;
-  top: 0; bottom: 0; left: 0; right: 0;
-  height: 100%;
+  /*background-repeat: no-repeat;*/
 }
-
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
 
 $red: #E1332D;
@@ -66,7 +63,7 @@ body {
 
 .jumbotron {
   margin-top: 5rem;
-  background-color: black;
+  background-color: #2b2b2b;
 }
 
 .display-4 {
@@ -79,10 +76,14 @@ body {
   color: #212529;
 }
 
+.mdf{
+    color: #2b2b2b;
+}
+
 h1 {
-  color: $white;
-  font-size: 1.25em;
-  font-weight: 900;
+  color: #2b2b2b;
+  font-size: 2.5em;
+  font-weight: bold;
   margin: 0 0 2em;
 
   @media (min-width: 450px) {
@@ -442,9 +443,9 @@ Movie information
 	font-weight: bold;
 	height: 195px;
 	background-size: contain;
+	background-repeat: no-repeat;
   color: #eed9b7;
   font-family: "Poppins", sans-serif;
-	background-repeat: no-repeat;
 	text-shadow: 0px 1px 1px rgba(0,0,0,1);
 }
 
@@ -459,12 +460,12 @@ Movie information
 }
 
 .info p {
-  padding: 1.2em 1.4em;
-  margin: 2px 0 0;
-  /*font-weight: 700;*/
-  color: #666;
-  line-height: 1.4em;
-  /*border-top: 10px solid #555;*/
+	padding: 1.2em 1.4em;
+	margin: 2px 0 0;
+	/*font-weight: 700;*/
+	color: #666;
+	line-height: 1.4em;
+	/*border-top: 10px solid #555;*/
   color: #eed9b7;
   font-family: "Poppins", sans-serif;
 }
@@ -519,68 +520,72 @@ Posters and still images
 **************************************/
 
 .scene.image:nth-child(1) .poster {
-  background-image: url(../img/poster01.jpg);
+  background-image: url(../img/poster011.png);
 }
 
 .scene.image:nth-child(2) .poster {
-  background-image: url(../img/poster02.jpg);
+  background-image: url(../img/poster05.jpg);
 }
 
 .scene.image:nth-child(3) .poster {
-  background-image: url(../img/poster03.jpg);
+  background-image: url(../img/poster09.jpg);
 }
 .scene.image:nth-child(4) .poster {
-  background-image: url(../img/poster01.jpg);
-}
-.scene.image:nth-child(5) .poster {
   background-image: url(../img/poster02.jpg);
 }
-.scene.image:nth-child(6) .poster {
+.scene.image:nth-child(5) .poster {
   background-image: url(../img/poster03.jpg);
+}
+.scene.image:nth-child(6) .poster {
+  background-image: url(../img/poster06.jpg);
 }
 .scene.image:nth-child(7) .poster {
   background-image: url(../img/poster01.jpg);
 }
 .scene.image:nth-child(8) .poster {
-  background-image: url(../img/poster02.jpg);
+  background-image: url(../img/poster08.jpg);
 }
-.scene.image:nth-child(9) .poster {
-  background-image: url(../img/poster03.jpg);
-}
+
 
 
 
 
 
  .scene.image:nth-child(1) .info header {
-	background-image: url(../img/still01.jpg);
+     background-color: #eed9b7;
+/*	background-image: url(../img/demo.jpg);*/
 }
 
 .scene.image:nth-child(2) .info header {
-	background-image: url(../img/still02.jpg);
+    background-color: #eed9b7;
+/*	background-image: url(../img/still02.jpg);*/
 }
 
 .scene.image:nth-child(3) .info header {
-	background-image: url(../img/still03.jpg);
+    background-color: #eed9b7;
+/*	background-image: url(../img/still03.jpg);*/
 } 
 .scene.image:nth-child(4) .info header {
-	background-image: url(../img/still01.jpg);
+    background-color: #eed9b7;
+/*	background-image: url(../img/still01.jpg);*/
 } 
 .scene.image:nth-child(5) .info header {
-	background-image: url(../img/still02.jpg);
+    background-color: #eed9b7;
+/*	background-image: url(../img/still02.jpg);*/
 } 
 .scene.image:nth-child(6) .info header {
-	background-image: url(../img/still03.jpg);
+    background-color: #eed9b7;
+/*	background-image: url(../img/still03.jpg);*/
 } 
 .scene.image:nth-child(7) .info header {
-	background-image: url(../img/still01.jpg);
+    background-color: #eed9b7;
+/*	background-image: url(../img/still01.jpg);*/
 } 
 .scene.image:nth-child(8) .info header {
-	background-image: url(../img/still02.jpg);
+    background-color: #eed9b7;
+/*	background-image: url(../img/still02.jpg);*/
 } 
-.scene.image:nth-child(9) .info header {
-	background-image: url(../img/still03.jpg);
-} 
+
  
 
 
@@ -596,7 +601,6 @@ Posters and still images
 }
 .image:nth-child(4) .info header{
 	background-image: url(../img/tambola.jpg);
-
 .images:nth-child(1) .info header{
 	background-image: url(../img/pen.jpg);
 }
