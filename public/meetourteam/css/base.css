@@ -338,7 +338,9 @@ h1{
     color: white;
     font-weight: bold;
     margin-top: 5px;
-    font-family: 'Limelight', cursive;
+	font-family: 'Limelight', cursive;
+	padding-top: 50px;
+	/* padding-bottom: 30px; */
 }
 .hover-reveal {
 	position: fixed;
@@ -369,62 +371,4 @@ h1{
 .hover-reveal__img {
 	background-size: cover;
 	background-position: 50% 50%;
-}
-
-@media screen and (min-width: 53em) {
-	.message {
-		display: none;
-	}
-	.frame {
-		position: fixed;
-		text-align: left;
-		z-index: 10000;
-		top: 40px;
-		left: 0;
-		display: grid;
-		align-content: space-between;
-		width: 100%;
-		max-width: none;
-		height: 100vh;
-		padding: 2rem;
-		pointer-events: none;
-		grid-template-columns: 50% 50%;
-		grid-template-rows: auto auto auto;
-		grid-template-areas: 'title links'
-							'... ...'
-							'... github';
-	}
-	.frame__title {
-		grid-area: title;
-		padding: 0;
-	}
-	.frame__links {
-		grid-area: links;
-		padding: 0;
-		justify-self: end;
-	}
-	.github {
-		grid-area: github;
-		justify-self: end;
-		margin: 0;
-	}
-	.frame a {
-		pointer-events: auto;
-	}
-	.block {
-		align-items: flex-start;
-	}
-	.content {
-		position: relative;
-		display: grid;
-		grid-template-columns: repeat(3,33.33%);
-		margin: 0 auto;
-		padding-top: 20vh;
-		max-width: 750px;
-		min-height: 100vh;
-		text-align: left;
-	}
-	.content__text {
-		grid-column: span 3;
-	}
 }
