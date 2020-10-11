@@ -30,7 +30,7 @@ background-size: cover;
 
 .text-box{
   position: absolute;
-  top: 200px;
+  top: 40%;
   left: 50%;
   transform: translate(-50%,-50%);
   text-align: center;
@@ -111,13 +111,22 @@ background-size: cover;
   text-align: center;
 }
 
+h4{
+  font-size: 1.2rem;
+}
+
 .other-sponsors{
-  padding: 20px;
   display: block;
   margin:auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 200px;
   max-width: 100%;
   max-height: 100%;
-  padding: 2%;
+}
+p{
+  margin-bottom: 30px;
 }
 #sponsor-images{
   margin: 5% 5% 5% 5%;
@@ -141,44 +150,28 @@ background-size: cover;
   font-size: 20px;
 }
 
-.carousel .carousel-item {
-    transition-duration: 0.3s;
-}
-
-.carousel-inner img{
-  color:rgba(0,0,0,0.5);
-}
-.carousel-inner > .item > img {
-  width:640px;
-  height:500px;
-}
-
-#myCarousel div img{
-  color:rgba(0,0,0,0.5);
-  margin: auto;
-  width: 70%;
-}
-
 #contact{
 background-image: linear-gradient(to right bottom,rgba(17,153,158,0.8),rgba(48,227,202,0.8)), url(https://previews.123rf.com/images/o0matze0o/o0matze0o1805/o0matze0o180500018/101535114-website-and-internet-contact-us-page-concept-with-hanging-icons-in-front-of-a-silver-background.jpg);
 background-position: right;
 background-size: cover;
-background-repeat: no-repeat;
+background-repeat: repeat;
 text-align: center;
 color: #fff;
 margin-top: 30;
+margin-left: 0;
+margin-right: 0;
 }
 
 #contact a{
   text-decoration: none;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .cta1{
   display: block;
   font-family: "Montserrat",sans-serif;
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 2.5rem;
   letter-spacing: 0.25rem;
   padding: 7%;
   text-align: center;
@@ -188,7 +181,7 @@ margin-top: 30;
   display: block;
   font-family: "Montserrat",sans-serif;
   font-weight: 600;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   letter-spacing: .125rem;
   padding: 2%;
   text-align: center;
@@ -217,8 +210,6 @@ padding: 4.75rem;
   font-size: 1.3rem;
 }
 
-
-
 @media screen and (max-width: 630px)
 {
   .other-sponsors{
@@ -233,10 +224,6 @@ padding: 4.75rem;
     padding:none;
    }
 
-  .carousel-inner > .item > img {
-  width:640px;
-  height:250px;
-}
   .sponsorss-heading{
     font-size: 2.5rem;
   }
