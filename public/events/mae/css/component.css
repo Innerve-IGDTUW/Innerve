@@ -4,8 +4,10 @@
 
 body {
   background-color: #2b2b2b;
+  background-size: cover;
   font-family: "Poppins", sans-serif;
 	color: #fff;
+  /*background-repeat: no-repeat;*/
 }
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
 
@@ -61,7 +63,7 @@ body {
 
 .jumbotron {
   margin-top: 5rem;
-  background-color: black;
+  background-color: #2b2b2b;
 }
 
 .display-4 {
@@ -74,10 +76,14 @@ body {
   color: #212529;
 }
 
+.mdf{
+    color: #2b2b2b;
+}
+
 h1 {
-  color: $white;
-  font-size: 1.25em;
-  font-weight: 900;
+  color: #2b2b2b;
+  font-size: 2.5em;
+  font-weight: bold;
   margin: 0 0 2em;
 
   @media (min-width: 450px) {
@@ -433,12 +439,13 @@ Movie information
 
 .info header {
 	/*color: #FFF;*/
-  color: #eed9b7;
 	padding: 7px 10px;
 	font-weight: bold;
 	height: 195px;
 	background-size: contain;
 	background-repeat: no-repeat;
+  color: #eed9b7;
+  font-family: "Poppins", sans-serif;
 	text-shadow: 0px 1px 1px rgba(0,0,0,1);
 }
 
@@ -453,12 +460,12 @@ Movie information
 }
 
 .info p {
-  padding: 1.2em 1.4em;
-  margin: 2px 0 0;
-  /*font-weight: 700;*/
-  color: #666;
-  line-height: 1.4em;
-  /*border-top: 10px solid #555;*/
+	padding: 1.2em 1.4em;
+	margin: 2px 0 0;
+	/*font-weight: 700;*/
+	color: #666;
+	line-height: 1.4em;
+	/*border-top: 10px solid #555;*/
   color: #eed9b7;
   font-family: "Poppins", sans-serif;
 }
@@ -513,56 +520,65 @@ Posters and still images
 **************************************/
 
 .scene.image:nth-child(1) .poster {
-  background-image: url(../img/images/images/poster01.jpg);
+  background-image: url(../img/OFF_THE_BOT.png);
 }
 
 .scene.image:nth-child(2) .poster {
-  background-image: url(../img/images/images/poster02.jpg);
+  background-image: url(../img/DIGITAL_DOODLING.png);
 }
 
 .scene.image:nth-child(3) .poster {
-  background-image: url(../img/images/images/poster03.jpg);
+  background-image: url(../img/MECHMASTER.png);
 }
 .scene.image:nth-child(4) .poster {
-  background-image: url(../img/images/images/poster01.jpg);
+  background-image: url(../img/akruti.png);
 }
 .scene.image:nth-child(5) .poster {
-  background-image: url(../img/images/images/poster02.jpg);
+  background-image: url(../img/MECHATHON.png);
 }
 .scene.image:nth-child(6) .poster {
-  background-image: url(../img/images/images/poster03.jpg);
+  background-image: url(../img/DECRYPT_IT.png);
 }
 .scene.image:nth-child(7) .poster {
-  background-image: url(../img/images/images/poster01.jpg);
+  background-image: url(../img/ENTROPY_BYTE.png);
 }
+
+
 
 
 
 
  .scene.image:nth-child(1) .info header {
-	background-image: url(../img/images/images/still01.jpg);
+     background-color: #eed9b7;
+/*	background-image: url(../img/demo.jpg);*/
 }
 
 .scene.image:nth-child(2) .info header {
-	background-image: url(../img/images/images/still02.jpg);
+    background-color: #eed9b7;
+/*	background-image: url(../img/still02.jpg);*/
 }
 
 .scene.image:nth-child(3) .info header {
-	background-image: url(../img/images/images/still03.jpg);
+    background-color: #eed9b7;
+/*	background-image: url(../img/still03.jpg);*/
 } 
 .scene.image:nth-child(4) .info header {
-	background-image: url(../img/images/images/still01.jpg);
+    background-color: #eed9b7;
+/*	background-image: url(../img/still01.jpg);*/
 } 
 .scene.image:nth-child(5) .info header {
-	background-image: url(../img/images/images/still02.jpg);
+    background-color: #eed9b7;
+/*	background-image: url(../img/still02.jpg);*/
 } 
 .scene.image:nth-child(6) .info header {
-	background-image: url(../img/images/images/still03.jpg);
+    background-color: #eed9b7;
+/*	background-image: url(../img/still03.jpg);*/
 } 
 .scene.image:nth-child(7) .info header {
-	background-image: url(../img/images/images/still01.jpg);
+    background-color: #eed9b7;
+/*	background-image: url(../img/still01.jpg);*/
 } 
- 
+
 
 
 /*
