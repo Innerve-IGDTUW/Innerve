@@ -67,6 +67,10 @@ app.get("/schedule", function(req, res) {
 	res.render("schedule.ejs");
 });
 
+app.get("/social-campaign", function(req, res) {
+	res.render("social-campaign.ejs");
+});
+
 app.get("/meetourteam", function(req, res) {
 	res.render("meetourteam.ejs");
 });
