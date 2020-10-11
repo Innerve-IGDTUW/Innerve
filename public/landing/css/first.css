@@ -2,7 +2,7 @@ body{
   margin: 0;
   /*background: black;*/
   /*background-image: url('https://source.unsplash.com/oyXis2kALVg');*/
-  background-color: #10060e;
+  background-color: #2b2b2b;
   object-fit: cover;
 }
 
@@ -62,8 +62,8 @@ body{
 
 .heading{
   position: absolute;
-  top: 50%;
-  left:50%;
+  top: 46%;
+  left: 50%;
   transform: translate(-50%, -50%);
   /* z-index:2; */
   padding: 0;
