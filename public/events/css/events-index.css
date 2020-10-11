@@ -2,17 +2,15 @@
 
 body{
   text-align: center;
-  /*background-image: url(%E2%80%94Pngtree%E2%80%94blue%20arrow%20science%20and%20technology_320830.jpg);*/
-  background-image: url(../img/events.jpg);
+  background-color: #2b2b2b;
   padding: 30px;
-  background-size: cover;
-/*    background: no-repeat;*/
   font-family: "Poppins", sans-serif;
 }
 
 .jumbotron {
   margin-top: 5rem;
-  background-color: black;
+  /* background-color: black; */
+  background-color: #2b2b2b;
 }
 
 .display-4 {
