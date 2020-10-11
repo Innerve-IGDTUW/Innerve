@@ -110,13 +110,24 @@ header {
   height: 100%;
   top: 0;
   left: 0;
-  /*background-color: black;*/
-  background-image: url(../img/home.jpg);
+  background-color: #2b2b2b;
+  background-image: url(../combined-Nikita-Amisha/home.png);
   background-position: center;
+  background-repeat: no-repeat;
+/*  background-attachment: fixed;*/
+  background-size: contain;
+
   display: flex;
   justify-content: center;
   align-items: center;
+    max-width: 100%;
 }
+@media only screen and (min-device-width: 480px) {
+  overlay {
+    background-image: url(../combined-Nikita-Amisha/home.png);
+  }
+}
+
 
 .inner {
   /*max-width: 35rem;*/
