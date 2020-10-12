@@ -3,19 +3,22 @@
 <link rel="stylesheet" href="/register/style.css">
 
 <div class="login-box">
-    <h2>Register</h2>
+  <h2>Register</h2>
 
-<form action="/client" method="POST">
- <div class="user-box"><input type="text" placeholder="Your name" name="name"><label>Name</label></div>
- <div class="user-box"><input type="text" placeholder="Your Email id" name="emailid"><label>Email Address</label></div>
- <div class="user-box"><input type="text" placeholder="Your contact number" name="contactno"><label>Contact Number</label></div>
- <div class="user-box"><input type="text" placeholder="Event in which you want to register" name="event"><label>Name of the Event</label></div>
-<!--  <a href="">Submit</a>-->
-<!--  <input type="text" placeholder="time" name="time">-->
-  <div>
-    <button type="submit"><b>Submit</b></button>
-  </div>
-</form>
+  <form action="/client" method="POST">
+    <div class="user-box"><input type="text" placeholder="Your name" name="name"><label>Name</label></div>
+    <div class="user-box"><input type="text" placeholder="Your Email id" name="emailid"><label>Email Address</label>
+    </div>
+    <div class="user-box"><input type="text" placeholder="Your contact number" name="contactno"><label>Contact
+        Number</label></div>
+    <div class="user-box"><input type="text" placeholder="Event in which you want to register" name="event"><label>Name
+        of the Event</label></div>
+    <!--  <a href="">Submit</a>-->
+    <!--  <input type="text" placeholder="time" name="time">-->
+    <div>
+      <button type="submit"><b>Submit</b></button>
+    </div>
+  </form>
 </div>
 
 <%- include('./partials/footer') %>

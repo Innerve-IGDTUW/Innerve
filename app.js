@@ -20,7 +20,6 @@ mongoose.set('useUnifiedTopology', true);
 
 const path  = require('path');
 
-
 app.use(bodyParser());
 
 const url ="mongodb+srv://dbUser:dbUser@cluster0.3t8dw.mongodb.net/Cluster0?retryWrites=true&w=majority";
@@ -32,7 +31,6 @@ mongoose.connect(url, {useNewUrlParser: true, useUnifiedTopology: true}).then(fu
 })
 
 //const ut = mongoose.model('ut', { Name: String,email:String,password:String});
-
 
 app.get("/", function(req, res) {
 	res.render("landing.ejs");
@@ -85,8 +83,10 @@ app.get("/social-campaign", function(req, res) {
 app.get("/meet-the-team", function(req, res) {
 	res.render("meetourteam.ejs");
 });
+
 app.use('/', rootRoutes);
 app.use('/client', clientRoutes);
+
 app.listen(process.env.PORT || 3000, function() {
 	console.log("Innerve 2020 server has started!");
 });
