@@ -23,6 +23,20 @@ mongoose.set('useUnifiedTopology', true);
 // 	console.log("Error: ", err.message);
 // });
 
+const path  = require('path');
+
+
+app.use(bodyParser());
+
+const url ="mongodb+srv://dbUser:dbUser@cluster0.3t8dw.mongodb.net/Cluster0?retryWrites=true&w=majority";
+
+mongoose.connect(url, {useNewUrlParser: true, useUnifiedTopology: true}).then(function (conn) {
+  console.log("Plan Db connected");
+}).catch(function (err) {
+  console.log(err);
+})
+
+
 app.get("/", function(req, res) {
 	res.render("landing.ejs");
 });
