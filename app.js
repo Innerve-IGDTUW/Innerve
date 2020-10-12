@@ -9,19 +9,14 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(methodOverride("_method"));
 
+const Client = require('./models/client');
+const rootRoutes = require('./routes/root');
+const clientRoutes = require('./routes/client');
+
 mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
 mongoose.set('useUnifiedTopology', true);
-
-// mongoose.connect("mongodb+srv://Lisa:****@cluster0-ulpnb.mongodb.net/test?retryWrites=true&w=majority", {
-// 	useNewUrlParser: true,
-// 	useCreateIndex: true
-// }).then(() => {
-// 	console.log("Connected to DB!");
-// }).catch(err => {
-// 	console.log("Error: ", err.message);
-// });
 
 const path  = require('path');
 
@@ -35,6 +30,8 @@ mongoose.connect(url, {useNewUrlParser: true, useUnifiedTopology: true}).then(fu
 }).catch(function (err) {
   console.log(err);
 })
+
+//const ut = mongoose.model('ut', { Name: String,email:String,password:String});
 
 
 app.get("/", function(req, res) {
@@ -88,7 +85,8 @@ app.get("/social-campaign", function(req, res) {
 app.get("/meet-the-team", function(req, res) {
 	res.render("meetourteam.ejs");
 });
-
+app.use('/', rootRoutes);
+app.use('/client', clientRoutes);
 app.listen(process.env.PORT || 3000, function() {
 	console.log("Innerve 2020 server has started!");
 });
