@@ -4,39 +4,18 @@
 
 <div class="login-box">
     <h2>Register</h2>
-    <form>
-        <div class="user-box">
-            <input type="text" name="" required="">
-            <label>Name</label>
-        </div>
 
-        <div class="user-box">
-            <input type="number" name="" required="">
-            <label>Contact</label>
-        </div>
-
-        <div class="user-box">
-            <input type="text" name="" required="">
-            <label>Events</label>
-        </div>
-
-        <div class="user-box">
-            <input type="email" name="" required="">
-            <label>Email</label>
-        </div>
-
-        <div class="user-box">
-            <input type="password" name="" required="">
-            <label>Password</label>
-        </div>
-
-        <a href="#">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span> Submit
-        </a>
-    </form>
+<form action="/client" method="POST">
+ <div class="user-box"><input type="text" placeholder="Your name" name="name"><label>Name</label></div>
+ <div class="user-box"><input type="text" placeholder="Your Email id" name="emailid"><label>Email Address</label></div>
+ <div class="user-box"><input type="text" placeholder="Your contact number" name="contactno"><label>Contact Number</label></div>
+ <div class="user-box"><input type="text" placeholder="Event in which you want to register" name="event"><label>Name of the Event</label></div>
+<!--  <a href="">Submit</a>-->
+<!--  <input type="text" placeholder="time" name="time">-->
+  <div>
+    <button type="submit"><b>Submit</b></button>
+  </div>
+</form>
 </div>
 
 <%- include('./partials/footer') %>
