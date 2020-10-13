@@ -466,7 +466,8 @@ Movie information
 	color: #666;
 	line-height: 1.4em;
 	/*border-top: 10px solid #555;*/
-  color: #eed9b7;
+  /* color: #eed9b7; */
+  color: white;
   font-family: "Poppins", sans-serif;
 }
 
@@ -475,13 +476,13 @@ Movie information
   /*background-color: #eed9b7;*/
   background-color: black;
   /*color: black;*/
-  color: #eed9b7;
+  color: #6adbd9;
   font-size: 15px;
   transition: all 0.5s;
 }
 
 .info button:hover {
-  background-color: #eed9b7;
+  background-color: #6adbd9;
   color: black;
 }
 
@@ -554,41 +555,41 @@ Posters and still images
 
 
  .scene.image:nth-child(1) .info header {
-     background-color: #eed9b7;
+     background-color: #6adbd9;
 /*	background-image: url(../img/demo.jpg);*/
 }
 
 .scene.image:nth-child(2) .info header {
-    background-color: #eed9b7;
+    background-color: #cafcfb;
 /*	background-image: url(../img/still02.jpg);*/
 }
 
 .scene.image:nth-child(3) .info header {
-    background-color: #eed9b7;
+    background-color: #6adbd9;
 /*	background-image: url(../img/still03.jpg);*/
 } 
 .scene.image:nth-child(4) .info header {
-    background-color: #eed9b7;
+    background-color: #cafcfb;
 /*	background-image: url(../img/still01.jpg);*/
 } 
 .scene.image:nth-child(5) .info header {
-    background-color: #eed9b7;
+    background-color: #6adbd9;
 /*	background-image: url(../img/still02.jpg);*/
 } 
 .scene.image:nth-child(6) .info header {
-    background-color: #eed9b7;
+    background-color: #cafcfb;
 /*	background-image: url(../img/still03.jpg);*/
 } 
 .scene.image:nth-child(7) .info header {
-    background-color: #eed9b7;
+    background-color: #6adbd9;
 /*	background-image: url(../img/still01.jpg);*/
 } 
 .scene.image:nth-child(8) .info header {
-    background-color: #eed9b7;
+    background-color: #cafcfb;
 /*	background-image: url(../img/still02.jpg);*/
 } 
 .scene.image:nth-child(9) .info header {
-    background-color: #eed9b7;
+    background-color: #6adbd9;
 /*	background-image: url(../img/still03.jpg);*/
 } 
  

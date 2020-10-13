@@ -462,26 +462,21 @@ Movie information
 .info p {
 	padding: 1.2em 1.4em;
 	margin: 2px 0 0;
-	/*font-weight: 700;*/
-	color: #666;
 	line-height: 1.4em;
-	/*border-top: 10px solid #555;*/
-  color: #eed9b7;
+  color: white;
   font-family: "Poppins", sans-serif;
 }
 
 .info button {
   padding: 10px;
-  /*background-color: #eed9b7;*/
   background-color: black;
-  /*color: black;*/
-  color: #eed9b7;
+  color: #ff5555;
   font-size: 15px;
   transition: all 0.5s;
 }
 
 .info button:hover {
-  background-color: #eed9b7;
+  background-color: #ff5555;
   color: black;
 }
 
@@ -551,38 +546,38 @@ Posters and still images
 
 
  .scene.image:nth-child(1) .info header {
-     background-color: #eed9b7;
+     background-color: #ff5555;
 /*	background-image: url(../img/demo.jpg);*/
 }
 
 .scene.image:nth-child(2) .info header {
-    background-color: #eed9b7;
+    background-color: #fa8071;
 /*	background-image: url(../img/still02.jpg);*/
 }
 
 .scene.image:nth-child(3) .info header {
-    background-color: #eed9b7;
+    background-color: #ff5555;
 /*	background-image: url(../img/still03.jpg);*/
 } 
 .scene.image:nth-child(4) .info header {
-    background-color: #eed9b7;
+    background-color: #fa8071;
 /*	background-image: url(../img/still01.jpg);*/
 } 
-.scene.image:nth-child(5) .info header {
-    background-color: #eed9b7;
+.scene.image.minor:nth-child(1) .info header {
+    background-color: #fa8071;
 /*	background-image: url(../img/still02.jpg);*/
 } 
-.scene.image:nth-child(6) .info header {
-    background-color: #eed9b7;
+.scene.image.minor:nth-child(2) .info header {
+    background-color: #ff5555;
 /*	background-image: url(../img/still03.jpg);*/
 } 
-.scene.image:nth-child(7) .info header {
-    background-color: #eed9b7;
+.scene.image.minor:nth-child(3) .info header {
+    background-color: #fa8071;
 /*	background-image: url(../img/still01.jpg);*/
 } 
-.scene.image:nth-child(8) .info header {
+.scene.image.minor:nth-child(4) .info header {
 /*	background-image: url(../img/still02.jpg);*/
-    background-color: #eed9b7;
+    background-color: #ff5555;
 } 
 
  
