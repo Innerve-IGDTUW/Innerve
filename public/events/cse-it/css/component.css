@@ -520,33 +520,33 @@ Posters and still images
 **************************************/
 
 .scene.image:nth-child(1) .poster {
-  background-image: url(../img/poster01.jpg);
+  background-image: url(../img/INNERVE%20HACKS.jpg);
 }
 
 .scene.image:nth-child(2) .poster {
-  background-image: url(../img/poster02.jpg);
+  background-image: url(../img/DATA%20HACKATHON.jpg);
 }
 
 .scene.image:nth-child(3) .poster {
-  background-image: url(../img/poster03.jpg);
+  background-image: url(../img/INNERVE%20SUMMER%20OF%20CODE.jpg);
 }
 .scene.image:nth-child(4) .poster {
-  background-image: url(../img/poster04.jpg);
+  background-image: url(../img/hogwarts.jpg);
 }
 .scene.image:nth-child(5) .poster {
-  background-image: url(../img/poster05.jpg);
+  background-image: url(../img/KNOW%20THE%20UNKOWN.jpg);
 }
 .scene.image:nth-child(6) .poster {
-  background-image: url(../img/poster06.jpg);
+  background-image: url(../img/CODE%20HEIST.jpg);
 }
 .scene.image:nth-child(7) .poster {
-  background-image: url(../img/poster01.jpg);
+  background-image: url(../img/FIND%20THE%20VACCINE.jpg);
 }
 .scene.image:nth-child(8) .poster {
-  background-image: url(../img/poster02.jpg);
+  background-image: url(../img/THE%20NAVAL%20CODE.jpg);
 }
 .scene.image:nth-child(9) .poster {
-  background-image: url(../img/poster03.jpg);
+  background-image: url(../img/CODE%20FOR%20CANDIES.jpg);
 }
 
 
@@ -579,17 +579,18 @@ Posters and still images
     background-color: #eed9b7;
 /*	background-image: url(../img/still03.jpg);*/
 } 
-/*
 .scene.image:nth-child(7) .info header {
-	background-image: url(../img/still01.jpg);
+    background-color: #eed9b7;
+/*	background-image: url(../img/still01.jpg);*/
 } 
 .scene.image:nth-child(8) .info header {
-	background-image: url(../img/still02.jpg);
+    background-color: #eed9b7;
+/*	background-image: url(../img/still02.jpg);*/
 } 
 .scene.image:nth-child(9) .info header {
-	background-image: url(../img/still03.jpg);
+    background-color: #eed9b7;
+/*	background-image: url(../img/still03.jpg);*/
 } 
-*/
  
 
 
