@@ -520,27 +520,27 @@ Posters and still images
 **************************************/
 
 .scene.image:nth-child(1) .poster {
-  background-image: url(../img/OFF_THE_BOT.png);
+  background-image: url(../img/OFF-TRACK%20BOT.jpg);
 }
 
 .scene.image:nth-child(2) .poster {
-  background-image: url(../img/DIGITAL_DOODLING.png);
+  background-image: url(../img/DIGITAL%20DOODLING.jpg);
 }
 
 .scene.image:nth-child(3) .poster {
-  background-image: url(../img/MECHMASTER.png);
+  background-image: url(../img/MECHMASTER.jpg);
 }
 .scene.image:nth-child(4) .poster {
-  background-image: url(../img/akruti.png);
+  background-image: url(../img/AKRUTI.jpg);
 }
 .scene.image:nth-child(5) .poster {
-  background-image: url(../img/MECHATHON.png);
+  background-image: url(../img/MECHATHON.jpg);
 }
 .scene.image:nth-child(6) .poster {
-  background-image: url(../img/DECRYPT_IT.png);
+  background-image: url(../img/DE-CRYPT%20IT.jpg);
 }
 .scene.image:nth-child(7) .poster {
-  background-image: url(../img/ENTROPY_BYTE.png);
+  background-image: url(../img/ENTROPYBYTE.jpg);
 }
 
 
