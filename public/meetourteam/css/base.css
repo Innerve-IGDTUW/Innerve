@@ -335,7 +335,7 @@ a.content__text-link[data-fx="14"]:hover::after {
 }
 h1{
     font-size: 65px;
-    color: white;
+    color: #eed9b7;
     font-weight: bold;
     margin-top: 5px;
 	font-family: 'Limelight', cursive;
