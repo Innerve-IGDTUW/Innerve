@@ -520,30 +520,30 @@ Posters and still images
 **************************************/
 
 .scene.image:nth-child(1) .poster {
-  background-image: url(../img/poster011.png);
+  background-image: url(../img/BOT%20SIMULATION.jpg);
 }
 
 .scene.image:nth-child(2) .poster {
-  background-image: url(../img/poster05.jpg);
+  background-image: url(../img/CODE%20ARDUINO.jpg);
 }
 
 .scene.image:nth-child(3) .poster {
-  background-image: url(../img/poster09.jpg);
+  background-image: url(../img/TECHNOQUEST.jpg);
 }
 .scene.image:nth-child(4) .poster {
-  background-image: url(../img/poster02.jpg);
+  background-image: url(../img/ELECTRO%20ENIGMA.jpg);
 }
 .scene.image:nth-child(5) .poster {
-  background-image: url(../img/poster03.jpg);
+  background-image: url(../img/DIGIT%20CLUSTER.jpg);
 }
 .scene.image:nth-child(6) .poster {
-  background-image: url(../img/poster06.jpg);
+  background-image: url(../img/CIRCUIT%20DEBUG.jpg);
 }
 .scene.image:nth-child(7) .poster {
-  background-image: url(../img/poster01.jpg);
+  background-image: url(../img/TECHNOVATE.jpg);
 }
 .scene.image:nth-child(8) .poster {
-  background-image: url(../img/poster08.jpg);
+  background-image: url(../img/IDEATHON.jpg);
 }
 
 
