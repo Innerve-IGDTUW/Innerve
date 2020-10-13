@@ -520,30 +520,30 @@ Posters and still images
 **************************************/
 
 .scene.image:nth-child(1) .poster {
-  background-image: url(../img/th.png);
+  background-image: url(../img/TREASURE_HUNT.png);
 }
 
 .scene.image:nth-child(2) .poster {
-  background-image: url(../img/outier.png);
+  background-image: url(../img/ONCE_UPON_AN_ESCAPE_ROOM.png);
 }
 
 .scene.image:nth-child(3) .poster {
-  background-image: url(../img/dtu.png);
+  background-image: url(../img/DARE_TO_UNLOCK.png);
 }
 .scene.image:nth-child(4) .poster {
-  background-image: url(../img/tb.png);
+  background-image: url(../img/TAMBOLA.png);
 }
-.scene.image:nth-child(5) .poster {
-  background-image: url(../img/irfq.png);
+.scene.image.minor:nth-child(1) .poster {
+  background-image: url(../img/IRR_RAPID_FIRE.png);
 }
-.scene.image:nth-child(6) .poster {
-  background-image: url(../img/dc.png);
+.scene.image.minor:nth-child(2) .poster {
+  background-image: url(../img/DUMB_CHARADES.png);
 }
-.scene.image:nth-child(7) .poster {
-  background-image: url(../img/qu.png);
+.scene.image.minor:nth-child(3) .poster {
+  background-image: url(../img/QUIZ_UP.png);
 }
-.scene.image:nth-child(8) .poster {
-  background-image: url(../img/bbs.png);
+.scene.image.minor:nth-child(4) .poster {
+  background-image: url(../img/BEG_BORROW_STEAL.png);
 }
 
 
